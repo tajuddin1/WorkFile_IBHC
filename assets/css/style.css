@@ -1,0 +1,919 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+/* .container{
+    max-width: 1160px;
+} */
+
+.nav-top{
+    background-color: #EDF1FC;
+    height: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+a{
+    color:  #001062;
+}
+
+.main-nav {
+    padding: 28px 0;
+}
+
+.social-icon{
+    font-size: 24px;
+}
+
+.btn_theme {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 36px;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #001062;
+    color: #fff;
+    border-radius: 6px;
+}
+.btn_theme_blue {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 36px;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #3155D9;
+    color: #fff;
+    border-radius: 6px;
+}
+.btn_theme_light {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 36px;
+    display: inline-block;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #3155D9;
+    border-radius: 6px;
+}
+.btn_theme_light_50 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 36px;
+    display: inline-block;
+    font-weight: 600;
+    background-color: #EDF1FC;
+    color: #3155D9;
+    border-radius: 6px;
+}
+.btn_theme:hover, .btn_theme_blue:hover, .btn_theme_light:hover {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #3155D9;
+    color: #fff;
+}
+.hero-content {
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+.hero-image-wrapper img{
+    max-width: 670px;
+}
+
+.hero-section {
+    background-color: #222A52;
+    padding-top: 50px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 84px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.hero-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.88px;
+    letter-spacing: 0.15em;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.cupon-card{
+    max-width: 450px;
+    background-color: #EDF1FC;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.cupon-card .inner{
+    border: 1px solid #8B94B2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cupon-card h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #001246;
+}
+
+.cupon-card p{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.cupon-card p.code{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #163ED4;
+}
+
+.action_btn_wrapper span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.action_btn_wrapper i{
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.cuppon_desc{
+    padding-left: 20px;
+}
+
+.cuppon_desc li{
+    color: #8B94B2;
+}
+
+.cuppon_desc li p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: unset;
+}
+
+.bar {
+    width: 60px;
+    height: 1px;
+    background: #DF2935;
+    margin-right: 20px;
+}
+
+.section-name p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.13em;
+    color: #DF2935;
+    text-transform: uppercase;
+}
+.theme_heding_2{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 70.4px;
+    color: #001062;
+}
+.theme_padding{
+    padding: 80px 0;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: justify;
+}
+
+.description_lg{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: justify;
+    max-width: 580px;
+}
+.about_sec_image img{
+    width: 90%;
+    height: 90%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.why_us{
+    background-color: #EDF1FC;
+}
+.about_sec_image{
+    height: 100%;
+    background-image: url(../images/repair_ac.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    border-radius: 6px;
+    max-width: 590px;
+}
+.why_us_card_image{
+    height: 100%;
+    background-image: url(../images/two_worker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    max-width: 590px;
+}
+.our_service_image {
+    height: 100%;
+    background-image: url(../images/2_people.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    max-width: 610px;
+    margin-left: auto;
+}
+.single_card {
+    width: 47%;
+    background: #FBFFFE;
+    padding: 35px;
+    border-radius: 8px;
+    min-height: 310px;
+}
+
+.why_us_card {
+    row-gap: 30px;
+}
+
+.single_card i {
+    font-size: 40px;
+    color: #DF2935;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.single_card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.single_card p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #333333;
+}
+.service_card{
+    max-width: 310px;
+    min-height: 250px;
+}
+.service_card h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    color: #000B41;
+    margin-bottom: 20px;
+}
+
+.service_card p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    color: #ADAFAE;
+    margin-bottom: 20px;
+}
+
+.service_card a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.side_line {
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background: #DF2935;
+    left: 15px;
+    bottom: 50px;
+}
+.cupon-card-wrapper{
+    gap: 30px;
+}
+
+.icon_wrappper {
+    width: 110px;
+    height: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #EDF1FC;
+    border-radius: 8px;
+}
+
+.google_icon p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    color: #ADAFAE;
+}
+
+.google_icon a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #001062;
+}
+
+.testmonial_image img{
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.c_problem i{
+    color: #DF2935;
+}
+
+.c_problem {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000B41;
+}
+
+.review_sec{
+    color: #F2C94C;
+}
+.testmonial-top{
+    padding: 50px;
+}
+.testmonial-top h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #001062;
+}
+.testmonial-top p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: justify;
+    color: #333333;
+}
+
+.clint-image {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    background: #222A52;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.clint-image img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.faq_sec h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #001062;
+}
+
+.accordion-button::after {
+    background-image: url(../images/arrow-right.svg);
+    margin-left: 20px;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/arrow-right.svg);
+    margin-left: 20px;
+    -webkit-transform: rotate(-40deg);
+        -ms-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+}
+.accordion-button.collapsed {
+    padding: 30px 0;
+}
+
+.accordion-button{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    padding: 30px 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #DF2935;
+    background-color: unset;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: unset;
+    outline: 0;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+}
+
+.accordion-body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    max-width: 450px;
+    padding: 30px 0;
+    color: #ADAFAE;
+}
+
+.accordion-item {
+    border: 1px dashed #ADAFAE;
+}
+
+footer{
+    background-color: #001062;
+}
+
+.footer-content h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+.footer-content p, .footer-content a{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    color: #fff;
+}
+.testmonial_image {
+    position: relative;
+}
+
+.testmonial_image .qote {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
+}
+
+.carousel-item img {
+    max-height: 84vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #00000080;
+}
+.overlay-title h1 {
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 210px;
+    text-align: left;
+}
+.menu_logo{
+    display: none;
+}
+.service_list{
+    /* column-gap: 20px; */
+    row-gap: 60px;
+}
+
+h1.service_list_title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+}
+
+@media screen and (max-width:1399px) {
+    .hero-title {
+        font-size: 52px;
+        line-height: 70px;
+    }
+    .hero-description {
+        font-size: 16px;
+        line-height: 22.88px;
+    }
+    .hero-image-wrapper img{
+        max-width: 600px;
+    }
+    .testmonial-top {
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width:1240px) {
+    .theme_padding {
+        padding: 70px 0;
+    }
+    .single_card {
+        padding: 25px;
+        min-height: 280px;
+    }
+    .theme_heding_2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .description_lg {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .cupon-card-wrapper {
+        gap: 20px;
+    }
+    .hero-title {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .main-nav {
+        padding: 20px 0;
+    }
+    .testmonial-top p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .overlay-title h1 {
+        font-size: 140px;
+        line-height: 160px;
+    }
+}
+@media screen and (max-width:1023px) {
+    .cupon-card {
+        max-width: 420px;
+        padding: 5px;
+    }
+    .theme_heding_2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .hero-title {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .service_card p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .service_card h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .testmonial-top h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .c_problem {
+        font-size: 18px;
+    }
+    .theme_padding {
+        padding: 60px 0;
+    }
+    .faq_sec h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .hero-image-wrapper img {
+        max-width: 550px;
+        margin-left: -120px;
+    }
+    .hero-description {
+        max-width: 570px;
+    }
+    .nav-top {
+        height: 45px;
+        font-size: 14px;
+    }
+    .why_us_card {
+        gap: 30px;
+    }
+    .single_card {
+        min-height: 260px;
+    }
+    .service_card {
+        min-height: 200px;
+    }
+    .side_line {
+        bottom: 20px;
+    }
+    .testmonial-top {
+        padding: 30px 20px;
+    }
+    .our_service_image {
+        min-height: 300px;
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .nav-top{
+        display: none;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 2px;
+        background-color: #222a52;
+        margin: 6px 0;
+        -webkit-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        -ms-transform: rotate(-45deg) translate(-3px, 3px);
+        transform: rotate(-45deg) translate(-3px, 3px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        -ms-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .mobile_menu{
+        position: fixed;
+        width: 70% !important;
+        height: 100vh;
+        left: -100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start !important;
+            -ms-flex-pack: start !important;
+                justify-content: flex-start !important;
+        background: #222A52;
+        top: 0;
+        padding: 50px;
+        -webkit-box-shadow: 0px 0px 10px #000;
+                box-shadow: 0px 0px 10px #000;
+        gap: 50px;
+        -webkit-transition: 0.5s ease-in;
+        -o-transition: 0.5s ease-in;
+        transition: 0.5s ease-in;
+        z-index: 999;
+    }
+    .mobile_menu.extend{
+        left: 0;
+    }
+
+    .mobile_menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 40px;
+        font-size: 20px;
+    }
+    .mobile_menu ul li a{
+        color: #fff !important;
+    }
+    .mobile_menu .w-25.text-end{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .menu_logo{
+        display: block;
+    }
+    .hamburger_menu{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+    }
+    .hero-image-wrapper img {
+        max-width: 550px;
+        margin-left: -220px;
+    }
+    .theme_heding_2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .btn_theme_blue , .btn_theme_light, .btn_theme_light_50 {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .overlay-title h1 {
+        font-size: 100px;
+        line-height: 130px;
+        margin-bottom: 10px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .theme_heding_2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .side_line {
+        bottom: 0;
+        height: 60px;
+    }
+    .description_lg {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .service_card p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about_sec_image {
+        height: unset;
+        background-image: unset;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        max-width: unset;
+        max-height: 350px;
+        overflow: hidden;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    .footer-content p, .footer-content a {
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .single_card {
+        width: 90%;
+    }
+    .service_card {
+        max-width: unset;
+    }
+    .carousel-item img {
+        max-height: 100vh;
+        min-height: 100vh;
+        width: unset !important;
+    }
+    .overlay-title h1 {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .description_lg {
+        font-size: 14px;
+    }
+    .hero-image-wrapper {
+        position: absolute;
+    }
+    .hero-image-wrapper img {
+        max-width: 600px;
+        margin-right: 0;
+        margin-left: 50px;
+    }
+    .service_counter{
+        text-align: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .footer-content p, .footer-content a {
+        font-size: 16px;
+        text-align: center;
+        display: block;
+    }
+    .theme_heding_2 {
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .section-name{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    img.main-logo {
+        max-width: 140px;
+    }
+    .accordion-button {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer-content h4 {
+        text-align: center;
+    }
+    .footer-logo.mb-3 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 430px) {
+    .description_lg {
+        font-size: 14px;
+    }
+    .theme_heding_2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .hero-title {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .hero-description {
+        font-size: 14px;
+        line-height: 22.88px;
+    }
+    .btn_theme_blue, .btn_theme_light, .btn_theme_light_50 {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 22.2px;
+    }
+    .accordion-button {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .service_card {
+        min-height: unset;
+    }
+    .bar {
+        width: 50px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .description_lg {
+        font-size: 14px;
+    }
+    .theme_heding_2 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .hero-title {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .hero-description {
+        font-size: 14px;
+        line-height: 22.88px;
+    }
+    .btn_theme_blue, .btn_theme_light, .btn_theme_light_50 {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 22.2px;
+    }
+    .accordion-button {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .service_card h3 {
+        font-size: 26px;
+    }
+}
