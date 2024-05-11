@@ -792,8 +792,8 @@ h1.service_list_title {
         max-width: unset;
     }
     .carousel-item img {
-        max-height: 100vh;
-        min-height: 100vh;
+        max-height: 84vh;
+        min-height: 84vh;
         width: unset !important;
     }
     .overlay-title h1 {
@@ -884,6 +884,10 @@ h1.service_list_title {
     .bar {
         width: 50px;
     }
+    .overlay-title h1 {
+        font-size: 68px;
+        line-height: 80px;
+    }
 }
 @media screen and (max-width: 390px) {
     .description_lg {
@@ -915,5 +919,9 @@ h1.service_list_title {
     }
     .service_card h3 {
         font-size: 26px;
+    }
+    .overlay-title h1 {
+        font-size: 62px;
+        line-height: 76px;
     }
 }
