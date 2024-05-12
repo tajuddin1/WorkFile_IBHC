@@ -3,11 +3,7 @@ var menu = document.getElementById("mobile_menu");
 
 // Toggle classes when hamburger icon is clicked
 hamburger_icon.onclick = function() {
-    myFunction();
-};
-
-// Function to toggle classes
-function myFunction() {
+    
     hamburger_icon.classList.toggle("change");
     menu.classList.toggle("extend");
 }
