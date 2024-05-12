@@ -212,6 +212,7 @@ a{
     line-height: 34px;
     text-align: justify;
     max-width: 580px;
+    text-transform: capitalize;
 }
 .about_sec_image img{
     width: 90%;
@@ -219,7 +220,15 @@ a{
     border-radius: 6px;
     overflow: hidden;
 }
-
+.hero-image-wrapper {
+    position: absolute;
+    right: 0;
+}
+.financing_wrapper{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 60px;
+}
 .why_us{
     background-color: #EDF1FC;
 }
@@ -617,7 +626,7 @@ h1.service_list_title {
 @media screen and (max-width:990px) {
     .hero-image-wrapper img {
         max-width: 550px;
-        margin-left: -120px;
+        margin-right: -120px;
     }
     .hero-description {
         max-width: 570px;
@@ -647,7 +656,7 @@ h1.service_list_title {
     }
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:890px) {
     .nav-top{
         display: none;
     }
@@ -686,16 +695,16 @@ h1.service_list_title {
         left: -100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: start !important;
-            -ms-flex-pack: start !important;
-                justify-content: flex-start !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
         background: #222A52;
         top: 0;
-        padding: 50px;
+        padding: 50px 30px;
         -webkit-box-shadow: 0px 0px 10px #000;
-                box-shadow: 0px 0px 10px #000;
+        box-shadow: 0px 0px 10px #000;
         gap: 50px;
         -webkit-transition: 0.5s ease-in;
         -o-transition: 0.5s ease-in;
@@ -732,7 +741,7 @@ h1.service_list_title {
     }
     .hero-image-wrapper img {
         max-width: 550px;
-        margin-left: -220px;
+        margin-right: -220px;
     }
     .theme_heding_2 {
         font-size: 28px;
@@ -801,6 +810,12 @@ h1.service_list_title {
         font-weight: 700;
         line-height: 100px;
     }
+    .image_wrapper img {
+        width: 50%;
+        height: 250px;
+        object-fit: cover;
+    }
+    
 }
 
 @media screen and (max-width: 590px) {
@@ -811,9 +826,8 @@ h1.service_list_title {
         position: absolute;
     }
     .hero-image-wrapper img {
-        max-width: 600px;
-        margin-right: 0;
-        margin-left: 50px;
+        max-width: 700px;
+        margin-right: -300px;
     }
     .service_counter{
         text-align: center;
@@ -849,8 +863,17 @@ h1.service_list_title {
     .footer-logo.mb-3 {
         text-align: center;
     }
+    .image_wrapper img {
+        height: 180px;
+    }
+    .testmonial-top {
+        padding: 30px 10px;
+    }
 }
 @media screen and (max-width: 430px) {
+    .image_wrapper img {
+        height: 140px;
+    }
     .description_lg {
         font-size: 14px;
     }
@@ -890,6 +913,9 @@ h1.service_list_title {
     }
 }
 @media screen and (max-width: 390px) {
+    .image_wrapper img {
+        height: 120px;
+    }
     .description_lg {
         font-size: 14px;
     }
@@ -906,7 +932,7 @@ h1.service_list_title {
         line-height: 22.88px;
     }
     .btn_theme_blue, .btn_theme_light, .btn_theme_light_50 {
-        font-size: 15px;
+        font-size: 14px;
         padding: 8px 16px;
     }
     .description {
@@ -923,5 +949,8 @@ h1.service_list_title {
     .overlay-title h1 {
         font-size: 62px;
         line-height: 76px;
+    }
+    .testmonial-top {
+        padding: 30px 5px;
     }
 }

@@ -40,7 +40,7 @@
                         </div>
                         <div class="col-4 col-md-9 col-lg-8 d-flex align-items-center justify-content-between">
                             <div class="hamburger_menu">
-                                <div class="hamburger_icon" onclick="myFunction(this)">
+                                <div class="hamburger_icon" id="hamburger_icon">
                                     <div class="bar1"></div>
                                     <div class="bar2"></div>
                                     <div class="bar3"></div>
@@ -53,6 +53,7 @@
                                 <ul class="list-unstyled mb-0 d-flex justify-content-between align-items-center w-75 ">
                                     <li><a href="index.html" class="menu-link text-decoration-none text-dark fw-normal">Home</a></li>
                                     <li><a href="about.html" class="menu-link text-decoration-none text-dark fw-normal">About Us</a></li>
+                                    <li><a href="#" class="menu-link text-decoration-none text-dark fw-normal">Financial Services</a></li>
                                     <li><a href="services.html" class="menu-link text-decoration-none text-dark fw-normal">Services</a></li>
                                     <li><a href="#" class="menu-link text-decoration-none text-dark fw-normal">Coupons</a></li>
                                     <li><a href="contact.html" class="menu-link text-decoration-none text-dark fw-normal">Contact Us</a></li>
@@ -78,55 +79,28 @@
         <section class="faq_sec theme_padding">
             <div class="container-xl px-4 px-lg-5">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5 mb-md-0">
                         <div class="d-flex section-name align-items-center mb-4">
                             <div class="bar"></div>
-                            <p class="mb-0">FAQ</p>
+                            <p class="mb-0">Contact us</p>
                         </div>
-                        <h2 class="theme_heding_2 mb-3">Frequently Asked <br> Question</h2>
-
-                        <div class="accordion accordion-flush me-0 me-xl-5" id="accordionFlushExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                  What types of HVAC systems do you service?
-                                </button>
-                              </h2>
-                              <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body pt-0">We service a wide range of HVAC systems, including central air conditioning, ductless mini-splits, furnaces, heat pumps, and more.</div>
-                              </div>
+                        <h2 class="theme_heding_2 mb-3">Contact Us</h2>
+                        <p class="description_lg mb-5" style="color: #ADAFAE;">trust us for efficient and reliable comfort all year round. Need our help? Contact us today.</p>
+                        <form action="" class="me-0 me-md-5">
+                            <div class="from-group mb-4">
+                                <label class="form-label" for="">Name</label>
+                                <input type="text" class="form-control">
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    How often should I schedule HVAC maintenance?
-                                </button>
-                              </h2>
-                              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body pt-0">We service a wide range of HVAC systems, including central air conditioning, ductless mini-splits, furnaces, heat pumps, and more.</div>
-                              </div>
+                            <div class="from-group mb-4">
+                                <label class="form-label" for="">Email Address</label>
+                                <input type="text" class="form-control">
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    Do you offer emergency HVAC services?
-                                </button>
-                              </h2>
-                              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body pt-0">We service a wide range of HVAC systems, including central air conditioning, ductless mini-splits, furnaces, heat pumps, and more.</div>
-                              </div>
+                            <div class="from-group mb-5">
+                                <label class="form-label" for="">Message</label>
+                                <textarea class="form-control" name="" id="" rows="6"></textarea>
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    How can I improve the efficiency of my HVAC system?
-                                </button>
-                              </h2>
-                              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body pt-0">We service a wide range of HVAC systems, including central air conditioning, ductless mini-splits, furnaces, heat pumps, and more.</div>
-                              </div>
-                            </div>
-                          </div>
+                            <button class="btn_theme w-100 border-0">Send Msg</button>
+                        </form>
                     </div>
                     <div class="col-md-6">
                         <div class="ms-md-4">
