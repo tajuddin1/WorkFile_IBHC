@@ -15,3 +15,14 @@ document.addEventListener("click", function(event) {
         hamburger_icon.classList.remove("change");
     }
 });
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+   mainNav = document.querySelector(".mainNav");
+  if (document.body.scrollTop > 52 || document.documentElement.scrollTop > 52) {
+    mainNav.classList.add('top');
+  } else {
+    mainNav.classList.remove('top');
+  }
+}
